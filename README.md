@@ -1,4 +1,4 @@
-# AI Role Archetypes — DACH Skill Clustering
+# AI Role Archetypes - DACH Skill Clustering
 
 This project applies unsupervised machine learning to discover natural role archetypes in the DACH AI job market (Germany, Austria and Switzerland). Rather than relying on official job titles, K-Means clustering groups job postings by their skill profiles - revealing how the market actually organises AI roles versus how employers label them. The project directly extends Projects 1 and 2: Project 1 mapped where AI jobs are, Project 2 analysed what they pay and this project asks what skills they demand.
 
