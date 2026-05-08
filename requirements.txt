@@ -67,7 +67,6 @@ networkx==3.6.1
 notebook==7.5.5
 notebook_shim==0.2.4
 numpy==2.4.2
-openai==2.26.0
 packaging==26.0
 pandas==3.0.2
 pandocfilters==1.5.1
@@ -108,7 +107,6 @@ sympy==1.14.0
 terminado==0.18.1
 threadpoolctl==3.6.0
 tinycss2==1.4.0
-torchvision==0.25.0
 tornado==6.5.5
 tqdm==4.67.3
 traitlets==5.14.3
