@@ -1,8 +1,8 @@
-# AI Role Archetypes — DACH Skill Clustering
+# AI Role Archetypes - DACH Skill Clustering
 
 This project applies unsupervised machine learning to discover natural role archetypes in the DACH AI job market (Germany, Austria and Switzerland). Rather than relying on official job titles, K-Means clustering groups job postings by their skill profiles - revealing how the market actually organises AI roles versus how employers label them. The project directly extends Projects 1 and 2: Project 1 mapped where AI jobs are, Project 2 analysed what they pay and this project asks what skills they demand.
 
-**Dataset:** Custom collection via the Adzuna Jobs API — 485 unique job postings, enriched to 304 modeling-ready entries with skill profiles  
+**Dataset:** Custom collection via the Adzuna Jobs API - 485 unique job postings, enriched to 304 modeling-ready entries with skill profiles  
 **Source:** Collected using `fetch_ai_jobs_and_skills.py` and enriched using `fetch_ai_jobs_and_skills_enriched.py`
 
 ---
@@ -35,7 +35,7 @@ Run all cells in order via **Kernel → Restart & Run All**
 
 | File | Description |
 |------|-------------|
-| `modeling.ipynb` | Main ML notebook — preprocessing, clustering, evaluation |
+| `modeling.ipynb` | Main ML notebook - preprocessing, clustering, evaluation |
 | `fetch_ai_jobs_and_skills.py` | Adzuna API collection script |
 | `fetch_ai_jobs_and_skills_enriched.py` | Description enrichment and skill extraction script |
 | `adzuna_ai_jobs_dach.csv` | Raw job postings (485 rows) |
